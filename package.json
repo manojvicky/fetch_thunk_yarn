@@ -18,6 +18,7 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-redux": "^5.1.0",
+    "react-spinners": "^0.4.7",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "webpack": "^4.23.1",
@@ -25,6 +26,9 @@
     "webpack-dev-server": "^3.1.10"
   },
   "devDependencies": {
-    "redux-devtools": "^3.4.1"
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "redux-devtools": "^3.4.1",
+    "style-loader": "^0.23.1"
   }
 }

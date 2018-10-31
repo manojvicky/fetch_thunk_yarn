@@ -1,5 +1,6 @@
 const constants = {
 REQUEST: "REQUEST",
-DATA: "DATA"
+DATA: "DATA",
+ERROR: "ERROR"
 }
 export default constants;

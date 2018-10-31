@@ -7,7 +7,8 @@ export default connect(
     (state)=>(
     {
         isLoading: state.fetchThunk.isLoading,
-        data: state.fetchThunk.data
+        data: state.fetchThunk.data,
+        error: state.fetchThunk.error
     }),
     (dispatch)=>({
          actions: bindActionCreators(FetchThunkActions, dispatch)

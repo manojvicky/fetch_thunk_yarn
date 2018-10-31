@@ -20,7 +20,21 @@ module.exports = {
             query: {
                presets: ['es2015', 'react']
             }
-         }
+         },
+         {
+            test: /\.(png|jpg|gif)$/,
+            use: [{
+                loader: 'file-loader',
+                options: {}
+            }]
+        },
+        {
+            test: /\.css$/,
+            use: [
+              { loader: "style-loader" },
+              { loader: "css-loader" }
+            ]
+          }
       ]
    },
    plugins:[
